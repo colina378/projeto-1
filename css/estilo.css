@@ -1,0 +1,131 @@
+body{
+	background-color: orange;
+}
+h1{
+	font-family: cooper black;
+	color: white;
+}
+#nome{
+	width: 60%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	margin: 0 auto;
+	background-image: url(../imagens/fundo5.jpg);
+}
+#bolo{
+	color: white;
+	font-family: old english text MT;
+	font-size: 40px;
+}
+#conteudo{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.imagens{
+	width: 20%;
+    border: 4px solid darkred;
+	margin: 2vh 2vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	img{
+		width: 90%;
+	}
+}
+#pratos{
+	text-align: center;
+}
+#pai1{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.img{
+	width: 50px;
+	height: 50px;
+	flex-wrap: wrap;
+	margin: 1vh 1vh;
+}
+#pai2{
+	display: flex;
+	margin: 4vh 4vh;
+	#foto{
+		width: 60%;
+		height: 400px;
+	}
+}
+#pai3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.articuno{
+		width: 400px;
+		height: 270px;
+		margin: 2vh 2vh;
+	}
+}
+#pai4{
+	display: flex;
+	flex-direction: column;
+    width: 20%;
+	#foto10{
+	    width: 100%;
+	    height: 950px;
+	    margin-left: 3vh;
+	    margin: 3vh;
+    }
+}
+
+#pai5{
+	width: 78%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#paigeral{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.zapdos{
+	width: 360px;
+	height: 340px;
+	margin: 1vh;
+}	 
+
+.text{
+	text-align: center;
+	font-size: 20px;
+}
+.preço{
+	text-align: center;
+	font-family: serif;
+	color: darkred;
+	font-size: 20px
+}
+#paragrafo{
+	font-family: serif;
+	color: darkred;
+	font-size: 20px;
+	width: 100%;
+}
+#pai10{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
